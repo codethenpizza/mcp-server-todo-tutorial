@@ -1,0 +1,46 @@
+{
+  "name": "mcp-todo-server",
+  "version": "1.0.0",
+  "description": "MCP (Model Context Protocol) server showcasing how to build MCP applications",
+  "main": "dist/server.js",
+  "bin": {
+    "mcp-todo-server": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "todo",
+    "server",
+    "json-rpc",
+    "ai",
+    "assistant",
+    "tools",
+    "resources"
+  ],
+  "author": "MCP Tutorial Project",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/mcp-todo-server"
+  }
+}
